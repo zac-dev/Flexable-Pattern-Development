@@ -9,12 +9,21 @@
 /* Begin PBXBuildFile section */
 		97335C8B26EFAE1100B18EF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97335C8A26EFAE1100B18EF8 /* AppDelegate.swift */; };
 		97335C8D26EFAE1100B18EF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97335C8C26EFAE1100B18EF8 /* SceneDelegate.swift */; };
-		97335C8F26EFAE1100B18EF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97335C8E26EFAE1100B18EF8 /* ViewController.swift */; };
 		97335C9226EFAE1100B18EF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97335C9026EFAE1100B18EF8 /* Main.storyboard */; };
 		97335C9426EFAE1100B18EF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97335C9326EFAE1100B18EF8 /* Assets.xcassets */; };
 		97335C9726EFAE1100B18EF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97335C9526EFAE1100B18EF8 /* LaunchScreen.storyboard */; };
 		97335CA226EFAE1200B18EF8 /* FlexablePatternDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97335CA126EFAE1200B18EF8 /* FlexablePatternDemoTests.swift */; };
-		97335CAD26EFAE1200B18EF8 /* FlexablePatternDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97335CAC26EFAE1200B18EF8 /* FlexablePatternDemoUITests.swift */; };
+		97335CC226EFC2F800B18EF8 /* SimpleMVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97335CC126EFC2F800B18EF8 /* SimpleMVCViewController.swift */; };
+		97335CC426EFC31300B18EF8 /* SimpleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97335CC326EFC31300B18EF8 /* SimpleModel.swift */; };
+		97335CC626F10C6600B18EF8 /* MyNextSimpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97335CC526F10C6600B18EF8 /* MyNextSimpleViewController.swift */; };
+		97335CC826F118EC00B18EF8 /* ComplexMVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97335CC726F118EC00B18EF8 /* ComplexMVCViewController.swift */; };
+		97335CCA26F11D7200B18EF8 /* ComplexMVCViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97335CC926F11D7200B18EF8 /* ComplexMVCViewModel.swift */; };
+		97335CCC26F1334D00B18EF8 /* SimpleViperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97335CCB26F1334D00B18EF8 /* SimpleViperViewController.swift */; };
+		97335CCE26F133C000B18EF8 /* SimpleViperViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97335CCD26F133C000B18EF8 /* SimpleViperViewModel.swift */; };
+		97335CD026F24BD800B18EF8 /* SimpleViperViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97335CCF26F24BD800B18EF8 /* SimpleViperViewPresenter.swift */; };
+		97335CD226F24BEF00B18EF8 /* SimpleViperViewModelImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97335CD126F24BEF00B18EF8 /* SimpleViperViewModelImpl.swift */; };
+		97335CD426F24ED400B18EF8 /* SimpleViperViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97335CD326F24ED400B18EF8 /* SimpleViperViewInteractor.swift */; };
+		97335CD626F24F3100B18EF8 /* SimpleViperViewInteractorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97335CD526F24F3100B18EF8 /* SimpleViperViewInteractorImpl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +47,6 @@
 		97335C8726EFAE1100B18EF8 /* FlexablePatternDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexablePatternDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97335C8A26EFAE1100B18EF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97335C8C26EFAE1100B18EF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		97335C8E26EFAE1100B18EF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		97335C9126EFAE1100B18EF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97335C9326EFAE1100B18EF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97335C9626EFAE1100B18EF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,8 +55,18 @@
 		97335CA126EFAE1200B18EF8 /* FlexablePatternDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexablePatternDemoTests.swift; sourceTree = "<group>"; };
 		97335CA326EFAE1200B18EF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97335CA826EFAE1200B18EF8 /* FlexablePatternDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlexablePatternDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		97335CAC26EFAE1200B18EF8 /* FlexablePatternDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexablePatternDemoUITests.swift; sourceTree = "<group>"; };
-		97335CAE26EFAE1200B18EF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97335CC026EFB19600B18EF8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		97335CC126EFC2F800B18EF8 /* SimpleMVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMVCViewController.swift; sourceTree = "<group>"; };
+		97335CC326EFC31300B18EF8 /* SimpleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleModel.swift; sourceTree = "<group>"; };
+		97335CC526F10C6600B18EF8 /* MyNextSimpleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNextSimpleViewController.swift; sourceTree = "<group>"; };
+		97335CC726F118EC00B18EF8 /* ComplexMVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexMVCViewController.swift; sourceTree = "<group>"; };
+		97335CC926F11D7200B18EF8 /* ComplexMVCViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexMVCViewModel.swift; sourceTree = "<group>"; };
+		97335CCB26F1334D00B18EF8 /* SimpleViperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleViperViewController.swift; sourceTree = "<group>"; };
+		97335CCD26F133C000B18EF8 /* SimpleViperViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleViperViewModel.swift; sourceTree = "<group>"; };
+		97335CCF26F24BD800B18EF8 /* SimpleViperViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleViperViewPresenter.swift; sourceTree = "<group>"; };
+		97335CD126F24BEF00B18EF8 /* SimpleViperViewModelImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleViperViewModelImpl.swift; sourceTree = "<group>"; };
+		97335CD326F24ED400B18EF8 /* SimpleViperViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleViperViewInteractor.swift; sourceTree = "<group>"; };
+		97335CD526F24F3100B18EF8 /* SimpleViperViewInteractorImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleViperViewInteractorImpl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +99,6 @@
 			children = (
 				97335C8926EFAE1100B18EF8 /* FlexablePatternDemo */,
 				97335CA026EFAE1200B18EF8 /* FlexablePatternDemoTests */,
-				97335CAB26EFAE1200B18EF8 /* FlexablePatternDemoUITests */,
 				97335C8826EFAE1100B18EF8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,13 +116,15 @@
 		97335C8926EFAE1100B18EF8 /* FlexablePatternDemo */ = {
 			isa = PBXGroup;
 			children = (
-				97335C8A26EFAE1100B18EF8 /* AppDelegate.swift */,
-				97335C8C26EFAE1100B18EF8 /* SceneDelegate.swift */,
-				97335C8E26EFAE1100B18EF8 /* ViewController.swift */,
-				97335C9026EFAE1100B18EF8 /* Main.storyboard */,
-				97335C9326EFAE1100B18EF8 /* Assets.xcassets */,
-				97335C9526EFAE1100B18EF8 /* LaunchScreen.storyboard */,
-				97335C9826EFAE1100B18EF8 /* Info.plist */,
+				97335CBF26EFB15A00B18EF8 /* Application Files */,
+				97335CBE26EFB13D00B18EF8 /* Full Viper Feature */,
+				97335CBD26EFB13100B18EF8 /* Complex Viper Feature */,
+				97335CBC26EFB11700B18EF8 /* Simple Viper Feature */,
+				97335CBB26EFB10300B18EF8 /* Complex MVC Feature */,
+				97335CBA26EFB0F200B18EF8 /* Simple MVC Feature */,
+				97335CC526F10C6600B18EF8 /* MyNextSimpleViewController.swift */,
+				97335CDA26F256C700B18EF8 /* Model Domain */,
+				97335CC026EFB19600B18EF8 /* README.md */,
 			);
 			path = FlexablePatternDemo;
 			sourceTree = "<group>";
@@ -119,13 +138,93 @@
 			path = FlexablePatternDemoTests;
 			sourceTree = "<group>";
 		};
-		97335CAB26EFAE1200B18EF8 /* FlexablePatternDemoUITests */ = {
+		97335CBA26EFB0F200B18EF8 /* Simple MVC Feature */ = {
 			isa = PBXGroup;
 			children = (
-				97335CAC26EFAE1200B18EF8 /* FlexablePatternDemoUITests.swift */,
-				97335CAE26EFAE1200B18EF8 /* Info.plist */,
+				97335CC126EFC2F800B18EF8 /* SimpleMVCViewController.swift */,
 			);
-			path = FlexablePatternDemoUITests;
+			path = "Simple MVC Feature";
+			sourceTree = "<group>";
+		};
+		97335CBB26EFB10300B18EF8 /* Complex MVC Feature */ = {
+			isa = PBXGroup;
+			children = (
+				97335CC726F118EC00B18EF8 /* ComplexMVCViewController.swift */,
+				97335CC926F11D7200B18EF8 /* ComplexMVCViewModel.swift */,
+			);
+			path = "Complex MVC Feature";
+			sourceTree = "<group>";
+		};
+		97335CBC26EFB11700B18EF8 /* Simple Viper Feature */ = {
+			isa = PBXGroup;
+			children = (
+				97335CD926F252A500B18EF8 /* Simple Viper ViewController */,
+				97335CD726F2526500B18EF8 /* Simple Viper ViewModel */,
+				97335CD826F2528A00B18EF8 /* Simple Viper View Interactor */,
+			);
+			path = "Simple Viper Feature";
+			sourceTree = "<group>";
+		};
+		97335CBD26EFB13100B18EF8 /* Complex Viper Feature */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Complex Viper Feature";
+			sourceTree = "<group>";
+		};
+		97335CBE26EFB13D00B18EF8 /* Full Viper Feature */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Full Viper Feature";
+			sourceTree = "<group>";
+		};
+		97335CBF26EFB15A00B18EF8 /* Application Files */ = {
+			isa = PBXGroup;
+			children = (
+				97335C8A26EFAE1100B18EF8 /* AppDelegate.swift */,
+				97335C8C26EFAE1100B18EF8 /* SceneDelegate.swift */,
+				97335C9026EFAE1100B18EF8 /* Main.storyboard */,
+				97335C9326EFAE1100B18EF8 /* Assets.xcassets */,
+				97335C9526EFAE1100B18EF8 /* LaunchScreen.storyboard */,
+				97335C9826EFAE1100B18EF8 /* Info.plist */,
+			);
+			path = "Application Files";
+			sourceTree = "<group>";
+		};
+		97335CD726F2526500B18EF8 /* Simple Viper ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				97335CCD26F133C000B18EF8 /* SimpleViperViewModel.swift */,
+				97335CD126F24BEF00B18EF8 /* SimpleViperViewModelImpl.swift */,
+			);
+			path = "Simple Viper ViewModel";
+			sourceTree = "<group>";
+		};
+		97335CD826F2528A00B18EF8 /* Simple Viper View Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				97335CD326F24ED400B18EF8 /* SimpleViperViewInteractor.swift */,
+				97335CD526F24F3100B18EF8 /* SimpleViperViewInteractorImpl.swift */,
+			);
+			path = "Simple Viper View Interactor";
+			sourceTree = "<group>";
+		};
+		97335CD926F252A500B18EF8 /* Simple Viper ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				97335CCF26F24BD800B18EF8 /* SimpleViperViewPresenter.swift */,
+				97335CCB26F1334D00B18EF8 /* SimpleViperViewController.swift */,
+			);
+			path = "Simple Viper ViewController";
+			sourceTree = "<group>";
+		};
+		97335CDA26F256C700B18EF8 /* Model Domain */ = {
+			isa = PBXGroup;
+			children = (
+				97335CC326EFC31300B18EF8 /* SimpleModel.swift */,
+			);
+			path = "Model Domain";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +357,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97335C8F26EFAE1100B18EF8 /* ViewController.swift in Sources */,
+				97335CC626F10C6600B18EF8 /* MyNextSimpleViewController.swift in Sources */,
+				97335CCC26F1334D00B18EF8 /* SimpleViperViewController.swift in Sources */,
+				97335CC426EFC31300B18EF8 /* SimpleModel.swift in Sources */,
+				97335CD626F24F3100B18EF8 /* SimpleViperViewInteractorImpl.swift in Sources */,
+				97335CC226EFC2F800B18EF8 /* SimpleMVCViewController.swift in Sources */,
+				97335CD426F24ED400B18EF8 /* SimpleViperViewInteractor.swift in Sources */,
+				97335CCA26F11D7200B18EF8 /* ComplexMVCViewModel.swift in Sources */,
 				97335C8B26EFAE1100B18EF8 /* AppDelegate.swift in Sources */,
+				97335CD026F24BD800B18EF8 /* SimpleViperViewPresenter.swift in Sources */,
+				97335CCE26F133C000B18EF8 /* SimpleViperViewModel.swift in Sources */,
+				97335CD226F24BEF00B18EF8 /* SimpleViperViewModelImpl.swift in Sources */,
+				97335CC826F118EC00B18EF8 /* ComplexMVCViewController.swift in Sources */,
 				97335C8D26EFAE1100B18EF8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,7 +385,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97335CAD26EFAE1200B18EF8 /* FlexablePatternDemoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,7 +546,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q899T2QRE9;
-				INFOPLIST_FILE = FlexablePatternDemo/Info.plist;
+				INFOPLIST_FILE = "FlexablePatternDemo/Application Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,7 +565,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q899T2QRE9;
-				INFOPLIST_FILE = FlexablePatternDemo/Info.plist;
+				INFOPLIST_FILE = "FlexablePatternDemo/Application Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
